@@ -15,15 +15,22 @@ yarn global add mp-wxapkg-unpakcer
 - 首先尝试直接解包 (解压出来打包好的目录)
 
 ```
-unp-unpack <src>.wxapkg <dist path>
+# 解包
+unp unpack -s <decrypt>.wxapkg
 ```
 
 - 如果失败, 则按下面顺序执行
 
 ```
 # 解密
-unp-decrypt <src>.wxapkg <decrypt>.wxapkg
+unp decrypt -s <src>.wxapkg -d <decrypt>.wxapkg
+
+# 解密并解包 (pc 端)
+unp decrypt -s <src>.wxapkg
 
 # 解包
-unp-unpack <decrypt>.wxapkg <dist path>
+unp unpack -s <decrypt>.wxapkg
+
+# 解包 (指定输出目录)
+unp unpack -s <decrypt>.wxapkg -d <dist path>
 ```
