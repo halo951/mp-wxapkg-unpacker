@@ -1,0 +1,20 @@
+{
+  "name": "mp-wxapkg-unpacker",
+  "version": "0.1.1",
+  "description": "微信小程序(小游戏) wxapkg 包 解包工具, 支持 pc 端加密包解包",
+  "keywords": [
+    "小程序/小游戏",
+    "wxapkg"
+  ],
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "./index.js",
+  "bin": {
+    "unp": "./bin/cli"
+  },
+  "scripts": {},
+  "dependencies": {
+    "commander": "^9.4.0",
+    "unpack-wxapkg": "^1.0.2"
+  }
+}
