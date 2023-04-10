@@ -12,6 +12,10 @@
 yarn global add mp-wxapkg-unpakcer
 ```
 
+- window环境微信小程序包目录
+
+> C:\Users\Administrator\Documents\WeChat Files\Applet\
+
 - 首先尝试直接解包 (解压出来打包好的目录)
 
 ```
