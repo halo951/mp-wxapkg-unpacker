@@ -9,7 +9,7 @@
 # 使用方式
 
 ```
-yarn global add mp-wxapkg-unpakcer
+yarn global add mp-wxapkg-unpacker
 ```
 
 - window环境微信小程序包目录
